@@ -1,0 +1,50 @@
+{
+	"schemaVersion": 1,
+	"id": "beyondthesky",
+	"version": "${version}",
+	"name": "Beyond The Sky",
+	"description": "Minecraft + Space :)",
+	"authors": [
+		"Grumpyaaa"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/beyondthesky/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			{
+				"value": "net.grumpyaaa.beyondthesky.BeyondTheSky",
+				"adapter": "kotlin"
+			}
+		],
+		"client": [
+			{
+				"value": "net.grumpyaaa.beyondthesky.BeyondTheSkyClient",
+				"adapter": "kotlin"
+			}
+		],
+		"fabric-datagen": [
+			{
+				"value": "net.grumpyaaa.beyondthesky.BeyondTheSkyDataGenerator",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"mixins": [
+		"beyondthesky.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"fabric-language-kotlin": ">=1.9.10"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
