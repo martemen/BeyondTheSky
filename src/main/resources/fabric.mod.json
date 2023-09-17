@@ -8,8 +8,9 @@
 		"Grumpyaaa"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://www.youtube.com/@Grumpyaaa",
+		"sources": "https://github.com/martemen/BeyondTheSky",
+		"issues": "https://github.com/martemen/BeyondTheSky/issues"
 	},
 	"license": "MIT",
 	"icon": "assets/beyondthesky/icon.png",
