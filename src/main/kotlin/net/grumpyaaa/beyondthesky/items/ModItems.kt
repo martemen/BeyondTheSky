@@ -15,6 +15,6 @@ object ModItems {
     }
 
 
-    //Need for the items to be initialized
+    //Needed for the class to be initialized
     fun registerItems() {}
 }
